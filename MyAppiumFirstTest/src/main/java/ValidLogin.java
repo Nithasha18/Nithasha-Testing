@@ -32,7 +32,8 @@ public class ValidLogin {
         desiredCapabilities.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "com.royalmail.csp.sms.dev");
         desiredCapabilities.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, "com.royalmail.csp.sms.presentation.main.MainActivity");
         driver = new AndroidDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"), desiredCapabilities);
-		
+
+//my dad is disturbing my class	
 	
 }
 
